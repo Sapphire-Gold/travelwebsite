@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+	width: 100vh;
+	height: 800px;
+	background-image: url("https://images5.alphacoders.com/567/thumb-1920-567661.jpg");
+	color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+	
+
+
+}
+
+.heading{
+	width: 700px;
+	height: 150px;
+	/*background-color: red;*/
+	text-align: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-left: 350px;
+
+
+
+
+	
+
+	
+}
+
+.discover{
+	font-size: 40px;
+	color:#453508;
+
+	
+}
+
+/*.donus{
+	width: 200px;
+	height: 180px;
+	margin-top: -20px;
+}*/
+
+
+
+
+.airplane{
+	margin-left: 100px;
+}
+.love{
+	display: flex;
+	/*background-color: pink;*/
+	width: 1300px;
+	height: 670px;
+	position: relative;
+}
+
+
+.arrive{
+	width: 300px;
+	height: 250px;
+	color:white;
+	border-right: 30px;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+	position: absolute;
+	top: 150px;
+	left: 180px;
+	display: inline;
+	animation: slide 15s infinite;
+
+
+
+}
+
+@keyframes slide{
+	25%{
+		background: url("https://media.istockphoto.com/photos/inle-lake-myanmar-picture-id525485318?b=1&k=20&m=525485318&s=170667a&w=0&h=1sPx6T_y1Qp6Vbp4tdD4UMQcrqGB7dIYMitaxququPU=");
+		background-size: cover;
+	}
+
+	50%{
+		background: url("https://www.pronititravel.com/wp-content/uploads/2018/07/1-1-6.jpg");
+		background-size: cover;
+	}
+	75%{
+		background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoP3XZ_xL96wRfCwcbqCVGnBD9hNLoLP_MR6DLFZqm_S8LekhOvmIhnnZ5NvuUv8OM2SA&usqp=CAU");
+		background-size: cover;
+	}
+
+	100%{
+		background: url("https://www.wallpapertip.com/wmimgs/54-542335_shwedagon-pagoda-burma-wallpaper-shwedagon-pagoda.jpg");
+		background-size: cover;
+	}
+}
+
+
+.div1{
+	width: 350px;
+	font-family:'Poppins', sans-serif;
+	/*background-color:blue;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 50px;
+	left: 850px;
+	
+}
+
+
+
+
+
+
+
+
+
+.container{
+	width: 340px;
+	height: 370px;
+	color: white;
+	padding-top: 60px;
+	border-radius: 20px  70px 20px  100px;
+	background-size: cover;
+	text-align: center;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.6);
+}
+
+.loginimg{
+	width: 170px;
+	height: 120px;
+	/*border-radius: 50%;*/
+
+}
+
+
+.container h2{
+	font-family:inherit;
+	margin-top: -2px;
+}
+
+.container i{
+	font-size: 22px;
+	margin-left: -20px
+}
+
+
+.form-control{
+	width:  190px;
+	height: 30px;
+	margin-bottom: 24px;
+	border-radius: 10px;
+	border: 0;
+	
+}
+
+
+.form-control::placeholder{
+	color: rgba(0,0,0,0.5);
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.form-control:focus{
+	outline: none;
+}
+
+.btn{
+	width: 130px;
+	height: 34px;
+	color: white;
+	background-color: #100dd9;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 15px;
+	font-family: 'Poppins', sans-serif;
+
+
+}
+
+.btn a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.account{
+	margin-top: 10px;
+}
+
+
+.signup:visited{
+	color: orange;
+
+}

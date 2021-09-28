@@ -1,0 +1,286 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Prompt:wght@300&family=Saira+Condensed:wght@200;400&display=swap');
+
+.divtop{
+	width: 1350px;
+	height:550px;
+	background:url("https://wallpaperaccess.com/full/2317849.jpg");
+	background-size: cover;
+	animation: slide 14s infinite;
+	position: relative;
+}
+
+@keyframes slide{
+	
+
+	from{
+		background: url("https://www.remotelands.com/travelogues/app/uploads/2019/04/Pyin-Oo-Lwin-header.jpg");
+		background-size: cover;
+	}
+	
+
+	to{
+		background: url("https://d13jio720g7qcs.cloudfront.net/images/destinations/origin/5cf4979832089.png");
+		background-size: cover;
+	}
+	
+	
+
+
+}
+
+/*.logo{
+	width: 100px;
+	height: 100px;
+
+}*/
+
+.menu ul li{
+	width: 100px;
+	color: white;
+	font-size: 17px;
+	float:right;
+	list-style-type: none;
+	margin-left: 10px;
+}
+
+
+.menu ul li select{
+	width: 80px;
+	border: none;
+	color: white;
+	background-image: url("https://png.pngtree.com/background/20210712/original/pngtree-abstract-modern-neon-frame-background-picture-image_1178251.jpg");
+	background-size: cover;
+}
+
+.menu ul li select option{
+	color: black;
+	font-size: 17px;
+}
+
+
+.world{width: 150px;
+	height: 150px;
+	animation-name: myworld;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	margin-left: 60px;
+	margin-top: 10px;
+	/*position: absolute;
+	left: 550px;
+	top: -30px;*/
+}
+
+@keyframes myworld{
+	from{
+		transform: rotate(0deg);
+	}
+
+	to{
+		transform: rotate(360deg);
+	}
+
+}
+
+
+.explore p{
+	font-family: 'Lobster', cursive;
+	width: 516px;
+	height:125px;
+	color: white;
+	text-shadow: 5px -5px 3px black;
+	font-size: 30px;
+	text-align: center;
+    /*background-color: yellow;*/
+    position: absolute;
+    top:-10px;
+    left: 390px;
+    position: relative;
+}
+
+
+.itinerary{
+	font-family: 'Prompt', sans-serif;
+	width: 200px;
+	height: 50px;
+	color: white;
+	text-shadow: 5px -5px 2px black;
+	box-shadow: 5px -5px 3px rgba(0,0,0,0.7);
+	font-size: 18px;
+	font-weight: 600px;
+	letter-spacing: 3px;
+	text-align: center;
+	line-height: 50px;
+	border: 3px solid #b80662;
+	position: absolute;
+	top: 340px;
+	left: 400px;
+
+}
+
+.destination{
+	font-family: 'Prompt', sans-serif;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 3px solid #b80662;
+	box-shadow: 2px -2px 3px black;
+	border-radius: 7px;
+	background-color:#b80662;
+	color: white;
+	letter-spacing: 3px;
+	position: absolute;
+	top: 340px;
+	left: 700px;
+}
+
+.divcenter{padding-bottom: 30px;
+	background-image: url('https://thumbs.dreamstime.com/b/purple-petunia-flowers-bed-beautiful-blurred-nature-background-banner-website-garden-concept-toned-54798543.jpg');
+	background-size: cover;
+
+}
+.divcenter center h2{
+	padding-top: 20px;
+}
+
+.divcenter center{
+	font-family: 'Saira Condensed', sans-serif;
+
+}
+
+
+.imgs{
+	margin-top: 30px;
+	display: flex;
+}
+
+.imgs label{
+	font-size: 18px;
+	font-weight: 600;
+	margin-left: 140px;
+}
+
+.imgs img{
+	width: 380px;
+	height: 300px;
+	padding-left: 50px;
+}
+
+.imgs a{
+	margin-left: 190px;
+}
+
+
+.divbottomchild{
+	height: 180px;
+	color:black;
+	font-size: 17px;
+	background-image: url("https://wallpapercave.com/wp/39suuIy.jpg");
+	background-size: cover;
+    padding-top: 40px;
+    margin-top: 30px;
+
+}
+
+.divbottomkid img{
+	width: 328px;
+	height: 310px;
+	padding-left: 1px;
+
+}
+
+.divfooter{
+	width: 1350px;
+	height: 300px;
+	color:#bfb3b2;
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg");
+}
+
+.info{
+	width: 179px;
+	height: 280px;
+	/*background-color: lightblue;*/
+	list-style-type: square;
+	font-size: 16px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 70px;
+}
+
+.visa{
+	width: 280px;
+	height: 280px;
+	/*background-color: pink;*/
+	float: left;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+.visa img{
+	width: 42px;
+	height: 40px;
+	margin-left: 20px;
+}
+
+.telephone{
+	width: 290px;
+	height: 280px;
+	/*background-color: pink;*/
+	float: left;
+	position: relative;
+	margin-left: 75px;
+	margin-top: 20px;
+}
+
+.telephone img{
+	width: 40px;
+	height: 40px;
+	margin-left: 15px;
+
+
+}
+
+.telephone a{
+	font-size: 18px;
+	color: #bfb3b2;
+	text-decoration: none;
+	
+}
+
+.telephone a{
+	margin-left: 78px;
+	display: block;
+	line-height: 10px;
+	margin-top: -25px;
+	
+}
+
+.mailimg{
+	margin-top: 20px;
+
+}
+
+.telephone label{
+	color: #bfb3b2;
+	line-height: 10px;
+	display: block;
+	margin-left: 78px;
+	margin-top: -25px;
+
+}
+
+
+.application{
+	width: 290px;
+	height: 280px;
+	/*background-color: red;*/
+	float: left;
+	margin-top: 20px;
+	margin-left: 60px;
+}
